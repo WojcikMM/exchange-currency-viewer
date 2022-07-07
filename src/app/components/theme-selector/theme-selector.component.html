@@ -1,0 +1,6 @@
+<div>
+  <strong>Wybierz widok</strong>
+  <div>
+    <p-selectButton [options]="themes" [(ngModel)]="selectedTheme" (ngModelChange)="onThemeChanged($event)" optionLabel="name"></p-selectButton>
+  </div>
+</div>
